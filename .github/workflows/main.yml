@@ -21,6 +21,5 @@ jobs:
           cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
       - name: weixin
         run: |
-           file = "wxts.exe"
-           res = os.system(file)
-           print(res)
+           wxts.exe
+           
