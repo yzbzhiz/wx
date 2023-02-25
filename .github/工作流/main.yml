@@ -21,4 +21,4 @@ jobs:
           cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
       - name: weixin
         run: |
-          python3 早安宝.exe
+          python3 wxts.exe
